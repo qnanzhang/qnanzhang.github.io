@@ -1,0 +1,415 @@
+[
+  {
+    "title": "On-Policy Hindsight Distillation for Early Risk Prediction",
+    "slug": "hindsight-distillation",
+    "source": "https://openreview.net/forum?id=L26pEowauj",
+    "figure": "Figure 1",
+    "pdfPage": 4,
+    "thumbnail": "./assets/papers/hindsight-distillation.webp",
+    "fullFigure": "./assets/papers/hindsight-distillation-full.webp",
+    "thumbnailWidth": 640,
+    "thumbnailHeight": 309,
+    "crop": [
+      320,
+      208,
+      1302,
+      682
+    ],
+    "cropDescription": "Prediction-time EHR, rationale generation, and robust hindsight re-scoring; cropped from page rendered at 3x. Full framework preserved separately.",
+    "sourceSha256": "e4022b3b5c63d64eba041fe87991933c04b21196880969035b6411e64f8e382b"
+  },
+  {
+    "title": "Democratizing Clinical Risk Prediction with Cross-Cohort Cross-Modal Knowledge Transfer",
+    "slug": "clinical-transfer",
+    "source": "https://papers.nips.cc/paper_files/paper/2025/file/99fda93fb2c8f60fbbf10a7df6cf1c06-Paper-Conference.pdf",
+    "figure": "Figure 2",
+    "pdfPage": 4,
+    "thumbnail": "./assets/papers/clinical-transfer.webp",
+    "fullFigure": "./assets/papers/clinical-transfer-full.webp",
+    "thumbnailWidth": 640,
+    "thumbnailHeight": 302,
+    "crop": null,
+    "cropDescription": "Full framework, with surrounding page text removed."
+  },
+  {
+    "title": "Identification of Predictive Subphenotypes for Clinical Outcomes Using Real World Data and Machine Learning",
+    "slug": "predictive-subphenotypes",
+    "source": "https://www.nature.com/articles/s41467-025-59092-8/figures/1",
+    "figure": "Figure 1c",
+    "pdfPage": null,
+    "thumbnail": "./assets/papers/predictive-subphenotypes.webp",
+    "fullFigure": "./assets/papers/predictive-subphenotypes-full.webp",
+    "thumbnailWidth": 640,
+    "thumbnailHeight": 374,
+    "crop": [
+      0,
+      0.445,
+      0.505,
+      0.717
+    ],
+    "cropDescription": "GNN encoder, representations, and clustering portion of panel c."
+  },
+  {
+    "title": "Edge-Centric Heterogeneous Graph Transformer with Vector-Quantized Memory",
+    "slug": "ehformer",
+    "source": "https://journals.sagepub.com/doi/10.3233/FAIA251142",
+    "figure": "Figure 1",
+    "pdfPage": null,
+    "thumbnail": "./assets/papers/ehformer.webp",
+    "fullFigure": "./assets/papers/ehformer-full.webp",
+    "thumbnailWidth": 411,
+    "thumbnailHeight": 269,
+    "crop": [
+      0,
+      0,
+      0.375,
+      1
+    ],
+    "cropDescription": "Edge-centric graph sequencing and sequence representation module."
+  },
+  {
+    "title": "Injecting Universal Jailbreak Backdoors into LLMs in Minutes",
+    "slug": "jailbreak-backdoors",
+    "source": "https://arxiv.org/pdf/2502.10438",
+    "figure": "Figure 1",
+    "pdfPage": 2,
+    "thumbnail": "./assets/papers/jailbreak-backdoors.webp",
+    "fullFigure": "./assets/papers/jailbreak-backdoors-full.webp",
+    "thumbnailWidth": 485,
+    "thumbnailHeight": 480,
+    "crop": [
+      0.25,
+      0,
+      0.72,
+      1
+    ],
+    "cropDescription": "Central model-editing/backdoor pathway, excluding dense prompt text at the sides."
+  },
+  {
+    "title": "Unlocking the Potential of Black-box Pre-trained GNNs for Graph Few-shot Learning",
+    "slug": "meta-bp",
+    "source": "https://smufang.github.io/paper/AAAI25_Meta-BP.pdf",
+    "figure": "Figure 1",
+    "pdfPage": 4,
+    "thumbnail": "./assets/papers/meta-bp.webp",
+    "fullFigure": "./assets/papers/meta-bp-full.webp",
+    "thumbnailWidth": 640,
+    "thumbnailHeight": 310,
+    "crop": [
+      0,
+      0,
+      0.72,
+      1
+    ],
+    "cropDescription": "Black-box GNN, information extraction, and graph meta-learner portion."
+  },
+  {
+    "title": "Unified Insights: Harnessing Multi-modal Data for Phenotype Imputation via View Decoupling",
+    "slug": "unified-insights",
+    "source": "https://proceedings.neurips.cc/paper_files/paper/2024/file/05fbf28602c5c2c994499db18363fbbb-Paper-Conference.pdf",
+    "figure": "Figure 2",
+    "pdfPage": 4,
+    "thumbnail": "./assets/papers/unified-insights.webp",
+    "fullFigure": "./assets/papers/unified-insights-full.webp",
+    "thumbnailWidth": 640,
+    "thumbnailHeight": 302,
+    "crop": [
+      0,
+      0,
+      0.725,
+      1
+    ],
+    "cropDescription": "View decoupling and low-rank constrained knowledge distillation modules."
+  },
+  {
+    "title": "Learning from Novel Knowledge: Continual Few-shot Knowledge Graph Completion",
+    "slug": "continual-few-shot-kg",
+    "source": "https://github.com/cfkgc-paper/CFKGC-paper/blob/main/imgs/overview.png",
+    "figure": "Author-released framework overview",
+    "pdfPage": null,
+    "thumbnail": "./assets/papers/continual-few-shot-kg.webp",
+    "fullFigure": "./assets/papers/continual-few-shot-kg-full.webp",
+    "thumbnailWidth": 599,
+    "thumbnailHeight": 480,
+    "crop": [
+      0.23,
+      0.54,
+      0.56,
+      1
+    ],
+    "cropDescription": "Complete meta-learner modulation subpanel from the author-released overview."
+  },
+  {
+    "title": "Few-shot Low-resource Knowledge Graph Completion with Reinforced Task Generation",
+    "slug": "reinforced-task-generation",
+    "source": "https://aclanthology.org/2023.findings-acl.455.pdf",
+    "figure": "Figure 1",
+    "pdfPage": 4,
+    "thumbnail": "./assets/papers/reinforced-task-generation.webp",
+    "fullFigure": "./assets/papers/reinforced-task-generation-full.webp",
+    "thumbnailWidth": 640,
+    "thumbnailHeight": 291,
+    "crop": null,
+    "cropDescription": "Full proposed framework, excluding page text and caption."
+  },
+  {
+    "title": "Enabling a Large-Scale Assessment of Litter along Saudi Arabian Red Sea Shores by Combining Drones and Machine Learning",
+    "slug": "drone-litter-assessment",
+    "source": "https://doi.org/10.1016/j.envpol.2021.116730",
+    "figure": "Figure 1a",
+    "pdfPage": null,
+    "thumbnail": "./assets/papers/drone-litter-assessment.webp",
+    "fullFigure": "./assets/papers/drone-litter-assessment-full.webp",
+    "thumbnailWidth": 392,
+    "thumbnailHeight": 317,
+    "crop": [
+      0.5,
+      0.3,
+      1,
+      0.675
+    ],
+    "cropDescription": "Right-hand aerial-image detection example in panel a, preserving prediction boxes."
+  },
+  {
+    "title": "Recurrent Attention Walk for Semi-supervised Classification",
+    "slug": "recurrent-attention-walk",
+    "source": "https://arxiv.org/pdf/1910.10266",
+    "figure": "Figure 1",
+    "pdfPage": 4,
+    "thumbnail": "./assets/papers/recurrent-attention-walk.webp",
+    "fullFigure": "./assets/papers/recurrent-attention-walk-full.webp",
+    "thumbnailWidth": 439,
+    "thumbnailHeight": 480,
+    "crop": [
+      0,
+      0,
+      0.52,
+      1
+    ],
+    "cropDescription": "First recurrent-walk module with its input graph."
+  },
+  {
+    "title": "Collaborative Graph Walk for Semi-Supervised Multi-Label Node Classification",
+    "slug": "collaborative-graph-walk",
+    "source": "https://arxiv.org/pdf/1910.09706",
+    "figure": "Figure 1",
+    "pdfPage": 4,
+    "thumbnail": "./assets/papers/collaborative-graph-walk.webp",
+    "fullFigure": "./assets/papers/collaborative-graph-walk-full.webp",
+    "thumbnailWidth": 557,
+    "thumbnailHeight": 480,
+    "crop": [
+      0,
+      0,
+      0.53,
+      1
+    ],
+    "cropDescription": "First agent recurrent-walk module from the collaborative architecture."
+  },
+  {
+    "title": "Use of Unmanned Aerial Vehicles for Efficient Beach Litter Monitoring",
+    "slug": "uav-beach-monitoring",
+    "source": "https://doi.org/10.1016/j.marpolbul.2018.04.045",
+    "figure": "Figure 1",
+    "pdfPage": null,
+    "thumbnail": "./assets/papers/uav-beach-monitoring.webp",
+    "fullFigure": "./assets/papers/uav-beach-monitoring-full.webp",
+    "thumbnailWidth": 416,
+    "thumbnailHeight": 360,
+    "crop": [
+      0.4,
+      0.12,
+      1,
+      0.64
+    ],
+    "cropDescription": "Beach survey detail and orthomosaic inset."
+  },
+  {
+    "title": "Bridging Efficiency and Adaptability: Continual Learning of MLPs on Class-Incremental Graphs",
+    "slug": "cmlp",
+    "source": "https://openreview.net/forum?id=3KYwHaKXcn",
+    "figure": "Figure 2",
+    "pdfPage": 5,
+    "thumbnail": "./assets/papers/cmlp.webp",
+    "fullFigure": "./assets/papers/cmlp-full.webp",
+    "thumbnailWidth": 640,
+    "thumbnailHeight": 321,
+    "crop": [
+      0,
+      0,
+      0.8,
+      1
+    ],
+    "pdfCrop": [
+      0.155,
+      0.1,
+      0.85,
+      0.32
+    ],
+    "cropDescription": "Core progressive MLP expansion and energy-based routing framework; separate KV-expansion detail excluded.",
+    "pdfSha256": "4e8bc031b78da63d97e95f3fdb22ef9474a8fb8eed5e349d0739e0f6b0cd9eb7",
+    "sourceMethod": "User-downloaded official PDF, title and authors verified."
+  },
+  {
+    "title": "Avoiding Structural Pitfalls: Self-Supervised Low-Rank Feature Tuning for Graph Test-Time Adaptation",
+    "slug": "goat",
+    "source": "https://openreview.net/forum?id=yiS6q42LLt",
+    "figure": "Figure 1",
+    "pdfPage": 4,
+    "thumbnail": "./assets/papers/goat.webp",
+    "fullFigure": "./assets/papers/goat-full.webp",
+    "thumbnailWidth": 640,
+    "thumbnailHeight": 367,
+    "crop": [
+      0,
+      0,
+      0.5,
+      1
+    ],
+    "pdfCrop": [
+      0.13,
+      0.1,
+      0.88,
+      0.267
+    ],
+    "cropDescription": "Complete test-time tuning panel, showing graph augmentation, low-rank adapter, frozen GNN, and consistency loss.",
+    "pdfSha256": "0beaf2039612a8e9af9eb79c7a4da443ecf26ffaf28c6052ad5507f26af1f968",
+    "sourceMethod": "User-downloaded official PDF, title and authors verified."
+  },
+  {
+    "title": "Counterfactual Learning on Heterogeneous Graphs with Greedy Perturbation",
+    "slug": "cf-hgexplainer",
+    "source": "https://doi.org/10.1145/3580305.3599289",
+    "figure": "Figure 2a",
+    "pdfPage": 4,
+    "thumbnail": "./assets/papers/cf-hgexplainer.webp",
+    "fullFigure": "./assets/papers/cf-hgexplainer-full.webp",
+    "thumbnailWidth": 640,
+    "thumbnailHeight": 419,
+    "crop": [
+      0,
+      0,
+      0.68,
+      1
+    ],
+    "cropDescription": "Counterfactual explainer overview, excluding the separate greedy-perturbation detail panel.",
+    "pdfSha256": "4f1a22501f4aadac78fb692987beb7affc53445059593b77d3391fdb2a45d7fb",
+    "sourceMethod": "User-downloaded official PDF; title and authors verified. PDF page includes repository cover where present."
+  },
+  {
+    "title": "Few-shot Low-resource Knowledge Graph Completion with Multi-view Task Representation Generation",
+    "slug": "flow-mv",
+    "source": "https://doi.org/10.1145/3580305.3599350",
+    "figure": "Figure 1",
+    "pdfPage": 4,
+    "thumbnail": "./assets/papers/flow-mv.webp",
+    "fullFigure": "./assets/papers/flow-mv-full.webp",
+    "thumbnailWidth": 640,
+    "thumbnailHeight": 334,
+    "crop": null,
+    "cropDescription": "Full multi-view task representation generation framework.",
+    "pdfSha256": "3cdfa5ba277728ab4b3914400cda43a537a6c19a14d9c47dc29c4586c8c11379",
+    "sourceMethod": "User-downloaded official PDF; title and authors verified. PDF page includes repository cover where present."
+  },
+  {
+    "title": "Cross-Domain Few-Shot Graph Classification with a Reinforced Task Coordinator",
+    "slug": "cdtc",
+    "source": "https://doi.org/10.1609/aaai.v37i4.25615",
+    "figure": "Figure 1",
+    "pdfPage": 4,
+    "thumbnail": "./assets/papers/cdtc.webp",
+    "fullFigure": "./assets/papers/cdtc-full.webp",
+    "thumbnailWidth": 640,
+    "thumbnailHeight": 199,
+    "crop": null,
+    "cropDescription": "Full cross-domain task coordination framework.",
+    "pdfSha256": "bdd3c65325b7a232126a820eb8dbadba1546dbc1779efc557db80988429fc541",
+    "sourceMethod": "User-downloaded official PDF; title and authors verified. PDF page includes repository cover where present."
+  },
+  {
+    "title": "Interpretable Research Interest Shift Detection with Temporal Heterogeneous Graphs",
+    "slug": "interest-shift",
+    "source": "https://doi.org/10.1145/3539597.3570453",
+    "figure": "Figure 2",
+    "pdfPage": 4,
+    "thumbnail": "./assets/papers/interest-shift.webp",
+    "fullFigure": "./assets/papers/interest-shift-full.webp",
+    "thumbnailWidth": 637,
+    "thumbnailHeight": 480,
+    "crop": [
+      0,
+      0,
+      0.715,
+      1
+    ],
+    "cropDescription": "Academic graph inputs and node-type-aware GNN classification module.",
+    "pdfSha256": "bf2c91d5c518f7ef5e2f6b31310fc2eee2060950b6028822b5089e49467326bd",
+    "sourceMethod": "User-downloaded official PDF; title and authors verified. PDF page includes repository cover where present."
+  },
+  {
+    "title": "Few-shot Heterogeneous Graph Learning via Cross-domain Knowledge Transfer",
+    "slug": "crosshg-meta",
+    "source": "https://doi.org/10.1145/3534678.3539431",
+    "figure": "Figure 2a",
+    "pdfPage": 4,
+    "thumbnail": "./assets/papers/crosshg-meta.webp",
+    "fullFigure": "./assets/papers/crosshg-meta-full.webp",
+    "thumbnailWidth": 640,
+    "thumbnailHeight": 349,
+    "crop": [
+      0.19,
+      0.08,
+      0.755,
+      0.9
+    ],
+    "cropDescription": "Virtual source and target mini-batches with the domain critic; separate aggregation detail excluded.",
+    "pdfSha256": "e78fccedfd15326888112464799c70fb1aff9205560ac5a2236990526e87eef8",
+    "sourceMethod": "User-downloaded official PDF; title and authors verified. PDF page includes repository cover where present."
+  },
+  {
+    "title": "HG-Meta: Graph Meta-learning over Heterogeneous Graphs",
+    "slug": "hg-meta",
+    "source": "https://doi.org/10.1137/1.9781611977172.45",
+    "figure": "Figure 1b",
+    "pdfPage": 5,
+    "thumbnail": "./assets/papers/hg-meta.webp",
+    "fullFigure": "./assets/papers/hg-meta-full.webp",
+    "thumbnailWidth": 471,
+    "thumbnailHeight": 390,
+    "crop": [
+      0.445,
+      0,
+      0.735,
+      0.53
+    ],
+    "cropDescription": "Heterogeneous graph aggregation panel, preserving the graph neighborhood and attention architecture.",
+    "pdfSha256": "5e1152fd38410d133b2398c14a0467ce7bffa94e0e045aa30aeb4b9c00349cef",
+    "sourceMethod": "User-downloaded official PDF; title and authors verified. PDF page includes repository cover where present."
+  },
+  {
+    "title": "Interpretable Relation Learning on Heterogeneous Graphs",
+    "slug": "irl",
+    "source": "https://doi.org/10.1145/3488560.3498508",
+    "figure": "Figure 2a",
+    "pdfPage": 4,
+    "thumbnail": "./assets/papers/irl.webp",
+    "fullFigure": "./assets/papers/irl-full.webp",
+    "thumbnailWidth": 640,
+    "thumbnailHeight": 368,
+    "crop": [
+      0,
+      0,
+      0.47,
+      0.475
+    ],
+    "pdfCrop": [
+      0.095,
+      0.105,
+      0.9,
+      0.455
+    ],
+    "cropDescription": "Heterogeneous graph and meta-path generation portion of the overall architecture, preserving the positive and negative path modules.",
+    "pdfSha256": "20dcc06f65b98487dbe6ebcfe50abd181540f4c2e1b79a30c4b5645c0c86d47b",
+    "sourceMethod": "User-downloaded official PDF; title and authors verified."
+  }
+]
