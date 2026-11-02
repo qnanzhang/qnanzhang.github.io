@@ -7,16 +7,12 @@
     "pdfPage": 4,
     "thumbnail": "./assets/papers/hindsight-distillation.webp",
     "fullFigure": "./assets/papers/hindsight-distillation-full.webp",
-    "thumbnailWidth": 640,
-    "thumbnailHeight": 309,
-    "crop": [
-      320,
-      208,
-      1302,
-      682
-    ],
-    "cropDescription": "Prediction-time EHR, rationale generation, and robust hindsight re-scoring; cropped from page rendered at 3x. Full framework preserved separately.",
-    "sourceSha256": "e4022b3b5c63d64eba041fe87991933c04b21196880969035b6411e64f8e382b"
+    "thumbnailWidth": 960,
+    "thumbnailHeight": 381,
+    "crop": null,
+    "cropDescription": "Complete original framework figure, without surrounding paper text.",
+    "sourceSha256": "e4022b3b5c63d64eba041fe87991933c04b21196880969035b6411e64f8e382b",
+    "publicationUrl": "https://openreview.net/forum?id=L26pEowauj"
   },
   {
     "title": "Democratizing Clinical Risk Prediction with Cross-Cohort Cross-Modal Knowledge Transfer",
@@ -26,10 +22,17 @@
     "pdfPage": 4,
     "thumbnail": "./assets/papers/clinical-transfer.webp",
     "fullFigure": "./assets/papers/clinical-transfer-full.webp",
-    "thumbnailWidth": 640,
-    "thumbnailHeight": 302,
+    "thumbnailWidth": 960,
+    "thumbnailHeight": 456,
     "crop": null,
-    "cropDescription": "Full framework, with surrounding page text removed."
+    "cropDescription": "Complete Figure 2 re-extracted from PDF, preserving gene-token inputs, all module titles and outer boundaries.",
+    "publicationUrl": "https://papers.nips.cc/paper_files/paper/2025/hash/99fda93fb2c8f60fbbf10a7df6cf1c06-Abstract-Conference.html",
+    "pdfCropPixelsAt3x": [
+      414,
+      219,
+      1443,
+      708
+    ]
   },
   {
     "title": "Identification of Predictive Subphenotypes for Clinical Outcomes Using Real World Data and Machine Learning",
@@ -39,15 +42,18 @@
     "pdfPage": null,
     "thumbnail": "./assets/papers/predictive-subphenotypes.webp",
     "fullFigure": "./assets/papers/predictive-subphenotypes-full.webp",
-    "thumbnailWidth": 640,
-    "thumbnailHeight": 374,
-    "crop": [
+    "thumbnailWidth": 960,
+    "thumbnailHeight": 428,
+    "crop": null,
+    "cropDescription": "Panel c through Memberships; survival predictor excluded and its dangling outgoing arrows removed.",
+    "publicationUrl": "https://www.nature.com/articles/s41467-025-59092-8",
+    "cropPixelsFromFull": [
       0,
-      0.445,
-      0.505,
-      0.717
+      780,
+      1110,
+      1275
     ],
-    "cropDescription": "GNN encoder, representations, and clustering portion of panel c."
+    "cleanup": "Only background patches removing dangling excluded-panel arrows; original labels, numeric table values and diagram modules preserved."
   },
   {
     "title": "Edge-Centric Heterogeneous Graph Transformer with Vector-Quantized Memory",
@@ -57,15 +63,16 @@
     "pdfPage": null,
     "thumbnail": "./assets/papers/ehformer.webp",
     "fullFigure": "./assets/papers/ehformer-full.webp",
-    "thumbnailWidth": 411,
-    "thumbnailHeight": 269,
+    "thumbnailWidth": 614,
+    "thumbnailHeight": 274,
     "crop": [
+      176,
       0,
-      0,
-      0.375,
-      1
+      790,
+      274
     ],
-    "cropDescription": "Edge-centric graph sequencing and sequence representation module."
+    "cropDescription": "Edge-centric sequencing, complete Transformer, and vector-quantization global-memory module; graph input and separate zoom-in detail omitted.",
+    "publicationUrl": "https://journals.sagepub.com/doi/10.3233/FAIA251142"
   },
   {
     "title": "Injecting Universal Jailbreak Backdoors into LLMs in Minutes",
@@ -75,15 +82,11 @@
     "pdfPage": 2,
     "thumbnail": "./assets/papers/jailbreak-backdoors.webp",
     "fullFigure": "./assets/papers/jailbreak-backdoors-full.webp",
-    "thumbnailWidth": 485,
-    "thumbnailHeight": 480,
-    "crop": [
-      0.25,
-      0,
-      0.72,
-      1
-    ],
-    "cropDescription": "Central model-editing/backdoor pathway, excluding dense prompt text at the sides."
+    "thumbnailWidth": 960,
+    "thumbnailHeight": 482,
+    "crop": null,
+    "cropDescription": "Complete original framework figure, without surrounding paper text.",
+    "publicationUrl": "https://iclr.cc/virtual/2025/poster/29167"
   },
   {
     "title": "Unlocking the Potential of Black-box Pre-trained GNNs for Graph Few-shot Learning",
@@ -93,15 +96,18 @@
     "pdfPage": 4,
     "thumbnail": "./assets/papers/meta-bp.webp",
     "fullFigure": "./assets/papers/meta-bp-full.webp",
-    "thumbnailWidth": 640,
-    "thumbnailHeight": 310,
-    "crop": [
-      0,
-      0,
-      0.72,
-      1
+    "thumbnailWidth": 792,
+    "thumbnailHeight": 403,
+    "crop": null,
+    "cropDescription": "Complete meta-training phase; meta-testing omitted and connections to/from that excluded phase removed. Main pretrained-GNN output retained.",
+    "publicationUrl": "https://ojs.aaai.org/index.php/AAAI/article/view/34407",
+    "cropPixelsFromFull": [
+      20,
+      22,
+      812,
+      425
     ],
-    "cropDescription": "Black-box GNN, information extraction, and graph meta-learner portion."
+    "cleanup": "Only background patches removing dangling excluded-panel arrows; original labels, numeric table values and diagram modules preserved."
   },
   {
     "title": "Unified Insights: Harnessing Multi-modal Data for Phenotype Imputation via View Decoupling",
@@ -119,7 +125,8 @@
       0.725,
       1
     ],
-    "cropDescription": "View decoupling and low-rank constrained knowledge distillation modules."
+    "cropDescription": "View decoupling and low-rank constrained knowledge distillation modules.",
+    "publicationUrl": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/05fbf28602c5c2c994499db18363fbbb-Abstract-Conference.html"
   },
   {
     "title": "Learning from Novel Knowledge: Continual Few-shot Knowledge Graph Completion",
@@ -129,15 +136,32 @@
     "pdfPage": null,
     "thumbnail": "./assets/papers/continual-few-shot-kg.webp",
     "fullFigure": "./assets/papers/continual-few-shot-kg-full.webp",
-    "thumbnailWidth": 599,
-    "thumbnailHeight": 480,
-    "crop": [
-      0.23,
-      0.54,
-      0.56,
-      1
+    "thumbnailWidth": 960,
+    "thumbnailHeight": 921,
+    "crop": null,
+    "cropDescription": "Original lower-row modules rearranged for thumbnail readability: Sections 4.2 and 4.3 above Section 4.4. Module internals and labels unchanged.",
+    "publicationUrl": "https://doi.org/10.1145/3627673.3679734",
+    "panelCropsPixels": [
+      [
+        0,
+        548,
+        409,
+        1028
+      ],
+      [
+        419,
+        548,
+        1007,
+        1028
+      ],
+      [
+        1022,
+        548,
+        1800,
+        1028
+      ]
     ],
-    "cropDescription": "Complete meta-learner modulation subpanel from the author-released overview."
+    "layout": "4.2 + 4.3 above 4.4; no new connecting arrows"
   },
   {
     "title": "Few-shot Low-resource Knowledge Graph Completion with Reinforced Task Generation",
@@ -150,7 +174,8 @@
     "thumbnailWidth": 640,
     "thumbnailHeight": 291,
     "crop": null,
-    "cropDescription": "Full proposed framework, excluding page text and caption."
+    "cropDescription": "Full proposed framework, excluding page text and caption.",
+    "publicationUrl": "https://aclanthology.org/2023.findings-acl.455/"
   },
   {
     "title": "Enabling a Large-Scale Assessment of Litter along Saudi Arabian Red Sea Shores by Combining Drones and Machine Learning",
@@ -160,51 +185,51 @@
     "pdfPage": null,
     "thumbnail": "./assets/papers/drone-litter-assessment.webp",
     "fullFigure": "./assets/papers/drone-litter-assessment-full.webp",
-    "thumbnailWidth": 392,
-    "thumbnailHeight": 317,
+    "thumbnailWidth": 758,
+    "thumbnailHeight": 592,
     "crop": [
-      0.5,
-      0.3,
-      1,
-      0.675
+      0,
+      0,
+      758,
+      592
     ],
-    "cropDescription": "Right-hand aerial-image detection example in panel a, preserving prediction boxes."
+    "cropDescription": "Complete Figure 1a, preserving both aerial survey examples, detection insets, their connecting lines and the detection legend; panel b excluded.",
+    "publicationUrl": "https://doi.org/10.1016/j.envpol.2021.116730"
   },
   {
     "title": "Recurrent Attention Walk for Semi-supervised Classification",
     "slug": "recurrent-attention-walk",
     "source": "https://arxiv.org/pdf/1910.10266",
-    "figure": "Figure 1",
+    "figure": "Figure 1b",
     "pdfPage": 4,
     "thumbnail": "./assets/papers/recurrent-attention-walk.webp",
     "fullFigure": "./assets/papers/recurrent-attention-walk-full.webp",
-    "thumbnailWidth": 439,
-    "thumbnailHeight": 480,
+    "thumbnailWidth": 960,
+    "thumbnailHeight": 436,
     "crop": [
-      0,
-      0,
-      0.52,
-      1
+      29,
+      135,
+      1167,
+      652
     ],
-    "cropDescription": "First recurrent-walk module with its input graph."
+    "cropDescription": "Complete Figure 1b recurrent-attention-walk architecture; upper-left illustrative Figure 1a excluded.",
+    "publicationUrl": "https://doi.org/10.1145/3336191.3371853"
   },
   {
     "title": "Collaborative Graph Walk for Semi-Supervised Multi-Label Node Classification",
     "slug": "collaborative-graph-walk",
     "source": "https://arxiv.org/pdf/1910.09706",
-    "figure": "Figure 1",
+    "figure": "Collaborative-agent policy diagram",
     "pdfPage": 4,
     "thumbnail": "./assets/papers/collaborative-graph-walk.webp",
-    "fullFigure": "./assets/papers/collaborative-graph-walk-full.webp",
-    "thumbnailWidth": 557,
-    "thumbnailHeight": 480,
-    "crop": [
-      0,
-      0,
-      0.53,
-      1
-    ],
-    "cropDescription": "First agent recurrent-walk module from the collaborative architecture."
+    "fullFigure": "./assets/papers/collaborative-agents-full.webp",
+    "thumbnailWidth": 517,
+    "thumbnailHeight": 704,
+    "crop": null,
+    "cropDescription": "Four agent-specific policies and local embeddings coupled through a centralized policy via distillation and regularization; complete user-provided diagram.",
+    "publicationUrl": "https://doi.org/10.1109/ICDM.2019.00010",
+    "sourceMethod": "User-provided screenshot of the collaborative-agent policy diagram, 2026-10-31 at 5.06.23 PM.",
+    "display": "Complete upright portrait diagram centered within a square thumbnail slot; no rotation or scientific content changes."
   },
   {
     "title": "Use of Unmanned Aerial Vehicles for Efficient Beach Litter Monitoring",
@@ -214,15 +239,11 @@
     "pdfPage": null,
     "thumbnail": "./assets/papers/uav-beach-monitoring.webp",
     "fullFigure": "./assets/papers/uav-beach-monitoring-full.webp",
-    "thumbnailWidth": 416,
-    "thumbnailHeight": 360,
-    "crop": [
-      0.4,
-      0.12,
-      1,
-      0.64
-    ],
-    "cropDescription": "Beach survey detail and orthomosaic inset."
+    "thumbnailWidth": 667,
+    "thumbnailHeight": 661,
+    "crop": null,
+    "cropDescription": "Complete original figure including beach orthomosaic, enlarged survey area, scale bars and location globe.",
+    "publicationUrl": "https://doi.org/10.1016/j.marpolbul.2018.04.045"
   },
   {
     "title": "Bridging Efficiency and Adaptability: Continual Learning of MLPs on Class-Incremental Graphs",
@@ -232,23 +253,19 @@
     "pdfPage": 5,
     "thumbnail": "./assets/papers/cmlp.webp",
     "fullFigure": "./assets/papers/cmlp-full.webp",
-    "thumbnailWidth": 640,
-    "thumbnailHeight": 321,
-    "crop": [
-      0,
-      0,
-      0.8,
-      1
-    ],
+    "thumbnailWidth": 960,
+    "thumbnailHeight": 393,
+    "crop": null,
     "pdfCrop": [
       0.155,
       0.1,
       0.85,
       0.32
     ],
-    "cropDescription": "Core progressive MLP expansion and energy-based routing framework; separate KV-expansion detail excluded.",
+    "cropDescription": "Complete original framework figure, without surrounding paper text.",
     "pdfSha256": "4e8bc031b78da63d97e95f3fdb22ef9474a8fb8eed5e349d0739e0f6b0cd9eb7",
-    "sourceMethod": "User-downloaded official PDF, title and authors verified."
+    "sourceMethod": "User-downloaded official PDF, title and authors verified.",
+    "publicationUrl": "https://openreview.net/forum?id=3KYwHaKXcn"
   },
   {
     "title": "Avoiding Structural Pitfalls: Self-Supervised Low-Rank Feature Tuning for Graph Test-Time Adaptation",
@@ -274,7 +291,8 @@
     ],
     "cropDescription": "Complete test-time tuning panel, showing graph augmentation, low-rank adapter, frozen GNN, and consistency loss.",
     "pdfSha256": "0beaf2039612a8e9af9eb79c7a4da443ecf26ffaf28c6052ad5507f26af1f968",
-    "sourceMethod": "User-downloaded official PDF, title and authors verified."
+    "sourceMethod": "User-downloaded official PDF, title and authors verified.",
+    "publicationUrl": "https://openreview.net/forum?id=yiS6q42LLt"
   },
   {
     "title": "Counterfactual Learning on Heterogeneous Graphs with Greedy Perturbation",
@@ -294,7 +312,8 @@
     ],
     "cropDescription": "Counterfactual explainer overview, excluding the separate greedy-perturbation detail panel.",
     "pdfSha256": "4f1a22501f4aadac78fb692987beb7affc53445059593b77d3391fdb2a45d7fb",
-    "sourceMethod": "User-downloaded official PDF; title and authors verified. PDF page includes repository cover where present."
+    "sourceMethod": "User-downloaded official PDF; title and authors verified. PDF page includes repository cover where present.",
+    "publicationUrl": "https://doi.org/10.1145/3580305.3599289"
   },
   {
     "title": "Few-shot Low-resource Knowledge Graph Completion with Multi-view Task Representation Generation",
@@ -309,7 +328,8 @@
     "crop": null,
     "cropDescription": "Full multi-view task representation generation framework.",
     "pdfSha256": "3cdfa5ba277728ab4b3914400cda43a537a6c19a14d9c47dc29c4586c8c11379",
-    "sourceMethod": "User-downloaded official PDF; title and authors verified. PDF page includes repository cover where present."
+    "sourceMethod": "User-downloaded official PDF; title and authors verified. PDF page includes repository cover where present.",
+    "publicationUrl": "https://doi.org/10.1145/3580305.3599350"
   },
   {
     "title": "Cross-Domain Few-Shot Graph Classification with a Reinforced Task Coordinator",
@@ -324,7 +344,8 @@
     "crop": null,
     "cropDescription": "Full cross-domain task coordination framework.",
     "pdfSha256": "bdd3c65325b7a232126a820eb8dbadba1546dbc1779efc557db80988429fc541",
-    "sourceMethod": "User-downloaded official PDF; title and authors verified. PDF page includes repository cover where present."
+    "sourceMethod": "User-downloaded official PDF; title and authors verified. PDF page includes repository cover where present.",
+    "publicationUrl": "https://doi.org/10.1609/aaai.v37i4.25615"
   },
   {
     "title": "Interpretable Research Interest Shift Detection with Temporal Heterogeneous Graphs",
@@ -334,17 +355,18 @@
     "pdfPage": 4,
     "thumbnail": "./assets/papers/interest-shift.webp",
     "fullFigure": "./assets/papers/interest-shift-full.webp",
-    "thumbnailWidth": 637,
-    "thumbnailHeight": 480,
+    "thumbnailWidth": 960,
+    "thumbnailHeight": 525,
     "crop": [
-      0,
-      0,
-      0.715,
-      1
+      6,
+      17,
+      1257,
+      701
     ],
-    "cropDescription": "Academic graph inputs and node-type-aware GNN classification module.",
+    "cropDescription": "Complete framework content with the outer solid rectangular frame fully excluded; internal module boundaries retained.",
     "pdfSha256": "bf2c91d5c518f7ef5e2f6b31310fc2eee2060950b6028822b5089e49467326bd",
-    "sourceMethod": "User-downloaded official PDF; title and authors verified. PDF page includes repository cover where present."
+    "sourceMethod": "User-downloaded official PDF; title and authors verified. PDF page includes repository cover where present.",
+    "publicationUrl": "https://doi.org/10.1145/3539597.3570453"
   },
   {
     "title": "Few-shot Heterogeneous Graph Learning via Cross-domain Knowledge Transfer",
@@ -354,37 +376,41 @@
     "pdfPage": 4,
     "thumbnail": "./assets/papers/crosshg-meta.webp",
     "fullFigure": "./assets/papers/crosshg-meta-full.webp",
-    "thumbnailWidth": 640,
-    "thumbnailHeight": 349,
+    "thumbnailWidth": 960,
+    "thumbnailHeight": 448,
     "crop": [
-      0.19,
-      0.08,
-      0.755,
-      0.9
+      156,
+      246,
+      1326,
+      792
     ],
-    "cropDescription": "Virtual source and target mini-batches with the domain critic; separate aggregation detail excluded.",
+    "cropDescription": "Complete Figure 2a: auxiliary tasks, virtual source/target graphs, source/target meta-tasks, domain critic, and outer objective connections.",
     "pdfSha256": "e78fccedfd15326888112464799c70fb1aff9205560ac5a2236990526e87eef8",
-    "sourceMethod": "User-downloaded official PDF; title and authors verified. PDF page includes repository cover where present."
+    "sourceMethod": "User-downloaded official PDF; title and authors verified. PDF page includes repository cover where present.",
+    "publicationUrl": "https://doi.org/10.1145/3534678.3539431",
+    "cropCoordinateSystem": "PDF page rendered at 3x"
   },
   {
     "title": "HG-Meta: Graph Meta-learning over Heterogeneous Graphs",
     "slug": "hg-meta",
     "source": "https://doi.org/10.1137/1.9781611977172.45",
-    "figure": "Figure 1b",
+    "figure": "Figure 1a",
     "pdfPage": 5,
     "thumbnail": "./assets/papers/hg-meta.webp",
     "fullFigure": "./assets/papers/hg-meta-full.webp",
-    "thumbnailWidth": 471,
-    "thumbnailHeight": 390,
+    "thumbnailWidth": 701,
+    "thumbnailHeight": 646,
     "crop": [
-      0.445,
-      0,
-      0.735,
-      0.53
+      13,
+      18,
+      714,
+      664
     ],
-    "cropDescription": "Heterogeneous graph aggregation panel, preserving the graph neighborhood and attention architecture.",
+    "cropDescription": "Complete main HG-Meta workflow (Figure 1a), with its outer dashed boundary removed.",
     "pdfSha256": "5e1152fd38410d133b2398c14a0467ce7bffa94e0e045aa30aeb4b9c00349cef",
-    "sourceMethod": "User-downloaded official PDF; title and authors verified. PDF page includes repository cover where present."
+    "sourceMethod": "User-downloaded official PDF; title and authors verified. PDF page includes repository cover where present.",
+    "publicationUrl": "https://doi.org/10.1137/1.9781611977172.45",
+    "cropCoordinateSystem": "Previous complete panel-a extraction, 725 x 678 pixels"
   },
   {
     "title": "Interpretable Relation Learning on Heterogeneous Graphs",
@@ -394,13 +420,13 @@
     "pdfPage": 4,
     "thumbnail": "./assets/papers/irl.webp",
     "fullFigure": "./assets/papers/irl-full.webp",
-    "thumbnailWidth": 640,
-    "thumbnailHeight": 368,
+    "thumbnailWidth": 960,
+    "thumbnailHeight": 535,
     "crop": [
-      0,
-      0,
-      0.47,
-      0.475
+      9,
+      10,
+      1470,
+      824
     ],
     "pdfCrop": [
       0.095,
@@ -408,8 +434,26 @@
       0.9,
       0.455
     ],
-    "cropDescription": "Heterogeneous graph and meta-path generation portion of the overall architecture, preserving the positive and negative path modules.",
+    "cropDescription": "Complete framework with the entire outer dashed rectangle excluded; internal section separators retained.",
     "pdfSha256": "20dcc06f65b98487dbe6ebcfe50abd181540f4c2e1b79a30c4b5645c0c86d47b",
-    "sourceMethod": "User-downloaded official PDF; title and authors verified."
+    "sourceMethod": "User-downloaded official PDF; title and authors verified.",
+    "publicationUrl": "https://doi.org/10.1145/3488560.3498508"
+  },
+  {
+    "title": "Anthropogenic Litter Density and Composition Data Acquired Flying Commercial Drones on Sandy Beaches along the Saudi Arabian Red Sea",
+    "slug": "beach-litter-data",
+    "source": "User-provided aerial photograph, Screenshot 2026-10-31 at 4.56.57 PM",
+    "figure": "User-provided aerial photograph",
+    "pdfPage": null,
+    "thumbnail": "./assets/papers/beach-litter-data.webp",
+    "fullFigure": "./assets/papers/beach-litter-data-full.webp",
+    "thumbnailWidth": 960,
+    "thumbnailHeight": 737,
+    "crop": null,
+    "cropDescription": "Three user-provided aerial photographs displayed as a white-bordered stack, with the sea photograph in front.",
+    "publicationUrl": "https://doi.org/10.1016/j.dib.2021.107056",
+    "sourceSha256": "f3e0bdd797dc2d70c3a511bc9fda69ed66a1d2f4dec4f517f4bb108a81da94f9",
+    "sourceMethod": "User supplied three screenshots and authorized choosing a single photo or a montage; first photo chosen without generated content.",
+    "display": "CSS photo stack: first beach photo behind, vegetation photo in middle, sea photo on top."
   }
 ]
