@@ -134,12 +134,12 @@
     "source": "https://github.com/cfkgc-paper/CFKGC-paper/blob/main/imgs/overview.png",
     "figure": "Author-released framework overview",
     "pdfPage": null,
-    "thumbnail": "./assets/papers/continual-few-shot-kg.webp",
+    "thumbnail": "./assets/papers/continual-few-shot-kg-horizontal.svg",
     "fullFigure": "./assets/papers/continual-few-shot-kg-full.webp",
-    "thumbnailWidth": 960,
-    "thumbnailHeight": 921,
+    "thumbnailWidth": 1655,
+    "thumbnailHeight": 455,
     "crop": null,
-    "cropDescription": "Original lower-row modules rearranged for thumbnail readability: Sections 4.2 and 4.3 above Section 4.4. Module internals and labels unchanged.",
+    "cropDescription": "Three original modules in one row; red section-number annotations masked with white and outer top/right/bottom margins tightened. Scientific diagram content retained.",
     "publicationUrl": "https://doi.org/10.1145/3627673.3679734",
     "panelCropsPixels": [
       [
@@ -161,7 +161,7 @@
         1028
       ]
     ],
-    "layout": "4.2 + 4.3 above 4.4; no new connecting arrows"
+    "layout": "4.2 + 4.3 + 4.4 in one row"
   },
   {
     "title": "Few-shot Low-resource Knowledge Graph Completion with Reinforced Task Generation",
@@ -202,17 +202,17 @@
     "source": "https://arxiv.org/pdf/1910.10266",
     "figure": "Figure 1b",
     "pdfPage": 4,
-    "thumbnail": "./assets/papers/recurrent-attention-walk.webp",
+    "thumbnail": "./assets/papers/recurrent-attention-walk-tikz.webp",
     "fullFigure": "./assets/papers/recurrent-attention-walk-full.webp",
-    "thumbnailWidth": 960,
-    "thumbnailHeight": 436,
+    "thumbnailWidth": 1134,
+    "thumbnailHeight": 634,
     "crop": [
       29,
       135,
       1167,
       652
     ],
-    "cropDescription": "Complete Figure 1b recurrent-attention-walk architecture; upper-left illustrative Figure 1a excluded.",
+    "cropDescription": "Compact TikZ schematic showing a single repeated time step with recurrent-state and next-node loops, replacing the duplicated two-step layout. Original figure retained for reference.",
     "publicationUrl": "https://doi.org/10.1145/3336191.3371853"
   },
   {
@@ -221,15 +221,15 @@
     "source": "https://arxiv.org/pdf/1910.09706",
     "figure": "Collaborative-agent policy diagram",
     "pdfPage": 4,
-    "thumbnail": "./assets/papers/collaborative-graph-walk.webp",
+    "thumbnail": "./assets/papers/collaborative-graph-walk-tikz.webp",
     "fullFigure": "./assets/papers/collaborative-agents-full.webp",
-    "thumbnailWidth": 517,
-    "thumbnailHeight": 704,
+    "thumbnailWidth": 1674,
+    "thumbnailHeight": 850,
     "crop": null,
-    "cropDescription": "Four agent-specific policies and local embeddings coupled through a centralized policy via distillation and regularization; complete user-provided diagram.",
+    "cropDescription": "LaTeX/TikZ landscape redraw with four agent branches; independent distillation and regularization routes avoid modules and labels. Original full reference preserved.",
     "publicationUrl": "https://doi.org/10.1109/ICDM.2019.00010",
     "sourceMethod": "User-provided screenshot of the collaborative-agent policy diagram, 2026-10-31 at 5.06.23 PM.",
-    "display": "Complete upright portrait diagram centered within a square thumbnail slot; no rotation or scientific content changes."
+    "display": "TikZ landscape diagram, visually verified after PDF rendering."
   },
   {
     "title": "Use of Unmanned Aerial Vehicles for Efficient Beach Litter Monitoring",
@@ -396,17 +396,17 @@
     "source": "https://doi.org/10.1137/1.9781611977172.45",
     "figure": "Figure 1a",
     "pdfPage": 5,
-    "thumbnail": "./assets/papers/hg-meta.webp",
+    "thumbnail": "./assets/papers/hg-meta-upper.svg",
     "fullFigure": "./assets/papers/hg-meta-full.webp",
     "thumbnailWidth": 701,
-    "thumbnailHeight": 646,
+    "thumbnailHeight": 333,
     "crop": [
       13,
       18,
       714,
       664
     ],
-    "cropDescription": "Complete main HG-Meta workflow (Figure 1a), with its outer dashed boundary removed.",
+    "cropDescription": "Meta-training and auxiliary tasks only, including the meta-update connection; meta-testing, gradient illustration and node-type legend omitted.",
     "pdfSha256": "5e1152fd38410d133b2398c14a0467ce7bffa94e0e045aa30aeb4b9c00349cef",
     "sourceMethod": "User-downloaded official PDF; title and authors verified. PDF page includes repository cover where present.",
     "publicationUrl": "https://doi.org/10.1137/1.9781611977172.45",
